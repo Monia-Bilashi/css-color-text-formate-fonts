@@ -1,0 +1,61 @@
+h1 {
+    background-color: brown;
+    /* color name red,green,blue..... */
+    color: #ffffff;
+    /* 0-9 and 10=a,11=b,12=c,13=d,14=e,15=f  */
+}
+
+body {
+    background-color: rgb(120, 254, 234);
+    /* (0-255) */
+}
+
+p {
+    background-color: rgba(240, 133, 11, .8);
+    /* a for opacity,a=0.00 to 1.00 */
+}
+
+
+/* HSL  */
+
+.p-text-1 {
+    text-align: left;
+    text-decoration: underline;
+    background-color: rgb(144, 112, 32);
+    color: rgb(212, 205, 205);
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    text-shadow: 3px 5px black;
+}
+
+
+/* Text-spacing=letter-spacingp */
+
+.p-text-2 {
+    background-color: lightcyan;
+    color: green;
+    text-align: right;
+    text-decoration: line-through;
+    text-transform: lowercase;
+    line-height: 50px;
+    text-shadow: 3px 5px red;
+}
+
+.p-text-3 {
+    background-color: rgb(113, 90, 156);
+    color: rgb(189, 198, 189);
+    text-align: justify;
+    text-decoration: overline;
+    text-transform: capitalize;
+    word-spacing: 50px;
+    /* text-shadow: 3px 5px red; */
+    font-style: oblique;
+    font-weight: 900;
+}
+
+.p-text-4 {
+    background-color: #fff;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 400;
+}
